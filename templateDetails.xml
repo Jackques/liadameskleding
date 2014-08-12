@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+	<name>Lia Dameskleding Ontwerp 18-7-2012</name>
+	<creationDate>8-7-2012</creationDate>
+	<author>Jack Gommeren</author>
+	<authorEmail>Gommeren@msn.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Jack G 2012</copyright>
+	<license>GNU/GPL</license>
+	<version>1</version>
+	<description>Lia Dameskleding</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>dancing
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>lia_collectie_fotogallerij</position>
+		<position>lia_topfotos</position>
+		<position>lia_contact</position>
+		<position>lia_logo</position>
+		<position>lia_verkoopster</position>
+		<position>lia_navigatie</position>
+		<position>lia_nieuwsbrief</position>
+	</positions>
+</extension>
+

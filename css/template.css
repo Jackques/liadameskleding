@@ -1,0 +1,285 @@
+body{
+margin:0px;
+padding:0px;
+}
+#wrapper
+{
+
+/*width:1280px;*/
+  width:100%;
+  min-width:1024px;
+}
+#header
+{
+position:relative;
+  /*Hier zet ik bij elke afbeelding welke ik oproep via CSS "../" voor, wat voor Joomla (PHP) het pad zou moeten aangeven naar     de imagesfolder van de template waar de afbeelding gevonden kan worden*/
+background-image:url("../images/header_bg.jpg");
+height:198px;
+}
+#logo{
+position: absolute;
+top: 20px;
+left: 30px;
+width:450px;
+height:150px;
+}
+#nieuwsbrief{
+position: absolute;
+top: 20px;
+right: 20px;
+width:250px;
+height:150px;
+}
+.acymailing_introtext{
+padding-bottom: 0px !important;
+margin-bottom: 0px !important;
+display: block !important;
+width: 250px !important;
+height: 10px !important;
+text-align:center !important;
+  
+font-family: Calibri,Helvetica,Arial,sans-serif;
+font-style: normal;
+font-size: 16px;
+color: white;
+}
+.acymailing_form{
+height: 115px !important;
+}
+.onefield{
+height: 10px !important;
+text-align:center !important;
+}
+
+
+#nav_container
+{
+text-align:right;
+margin-bottom:25px;
+}
+#nav_container ul{
+  /*background-color:#800080;*/
+font-size:0px;
+margin:0px;
+padding:0px;
+}
+.menu li{
+margin:0px;
+margin-right:1px;
+padding:0px;
+list-style-type: none;
+display: inline-block;
+width: 180px;
+height: 70px;
+background-image:url('../images/but_bg.png');
+}
+.menu li a
+{
+display:block;
+width: 180px;
+height: 70px;
+line-height: 70px; /* zet de hoogte van de tekst op magische wijze in het midden van het element, bron: http://www.youtube.com/watch?v=__Wri6VtXXU */
+text-decoration:none;
+text-align:center;
+
+color:white;
+font-family: Calibri,Helvetica,Arial,sans-serif;
+font-size:24px;
+}
+
+
+
+
+#content{
+  /*background-color:#00FFFF;*/
+  /*height:646px;*/
+  min-height:585px;
+  /* ik had voor hierboven een kleur en een hoogte ingesteld zodat ik het skelet van de website kon zien*/
+}
+.contentpics_fotogallerij{
+text-align:center;
+margin-left:25px;
+margin-right:25px;
+}
+.contentpics_fotogallerij img{
+border-width:0px;
+}
+.contentpics_fotogallerij a{
+border-width:2px;
+border-style:solid;
+border-color:white;
+  
+display:inline-block;
+text-align:center;
+margin:2px;
+min-width:200px;
+}
+.contentpics_fotogallerij a:hover{
+border-width:2px;
+border-style:solid;
+border-color:#447711;
+}
+.contentpics_fotogallerij a:visited{
+border-width:2px;
+border-style:solid;
+border-color:#dcdcdc;
+}
+
+.contentpics{
+text-align:left;
+margin-left:25px;
+margin-right:25px;
+}
+.contentpics img{
+border-width:0px;
+}
+.contentpics a{
+border-width:2px;
+border-style:solid;
+border-color:white;
+  
+display:inline-block;
+text-align:center;
+margin-left:25px;
+margin-bottom:25px;
+min-width:200px;
+}
+.contentpics a:hover{
+border-width:2px;
+border-style:solid;
+  /*hieronder heb ik even de 'websafe' variant van de kleur opgezocht en deze ingevoerd voor de border*/
+border-color:#447711;
+  /*als ik hier de height instel op 300px, dan schaalt de browser (in ieder geval Chrome de afbeelding proportioneel naar de bijpassende breedte bij een hoogte van 300px */
+}
+.contentpics a:visited{
+border-width:2px;
+border-style:solid;
+border-color:#dcdcdc;
+}
+
+#contentforall{
+width:600px; 
+  /*background-color:green;*/
+margin-left:25px;
+}
+#contentforall p{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-style:normal;
+font-size:14px;
+font-weight:lighter;
+color:black;
+line-height:15px;
+}
+#contentforall h2{
+display:none;
+}
+#lia
+{
+  /*background-color:#008080;*/
+position:absolute;
+bottom: 0px;
+right:   0px;
+pointer-events:none;
+
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/lia_03.png', sizingMethod='scale');
+background:none !important; /*the IE workaround*/
+}
+<!-- Include he following conditional to get click-throughs to work with IE -->
+    
+<!--[if IE]>
+#lia {
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/lia_03.png', sizingMethod='scale');
+ background:none !important;
+ bottom: 20px;
+ right:  20px;
+     }
+<![endif]-->
+#lia img
+{
+vertical-align:top;
+}
+
+
+
+
+#footer
+{
+position:relative;
+  /*background-color:#800080;*/
+background-image:url('../images/footer_bg.jpg');
+height:108px;
+margin-top:25px;
+}
+#contactinfo{
+position: absolute;
+top: 20px;
+left: 30px;
+width:800px;
+height:75px;
+  /*background-color:#008080;*/
+vertical-align:top
+}
+.contactinfo_el{
+float:left;
+  /*background-color:red;*/
+margin-left:2px;
+width:125px;
+}
+.contactinfo_el a{
+display:inline-block;
+border-style:solid;
+border-width:2px;
+border-color:white;
+}
+.contactinfo_el a:hover{
+border-color:#447711;
+}
+#adres{
+width:185px; 
+}
+#adres a{
+border-width:0px;
+}
+#google_maps{
+text-align:center;
+}
+#foto_huis{
+text-align:center;
+}
+#openingstijden{
+margin-left:25px;
+width:215px;
+}
+address{
+font-family: Calibri,Helvetica,Arial,sans-serif;
+font-style:normal;
+font-size:12px;
+color:white;
+line-height:15px;
+}
+address a{
+color:white;
+}
+.openingsdag{
+height: 15px;
+}
+.openingsdag p{
+font-family: Calibri,Helvetica,Arial,sans-serif;
+font-style:normal;
+font-size:12px;
+display:inline-block;
+margin:0px;
+color:white;
+}
+#dag_length{
+width: 20px;
+}
+
+#content h1{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-style:normal;
+font-size:18px;
+font-weight:bold;
+color:black;
+line-height:15px;
+}
